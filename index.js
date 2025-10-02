@@ -8,8 +8,18 @@ for(let i = 1; i <= n; i++) {
 console.log(row);
 }
 // question no-2
-
-
+for (let i = 1; i <= 45; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
+  
 // question no -3
 var numbersArray = [1,13,22,123,49];
 let sum = 0; 
